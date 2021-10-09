@@ -49,6 +49,8 @@ class Question {
       contestant.index = contestantCount;
       contestant.update();
       contestant.updateCount(contestantCount);
+      textSize(30);
+      text("THANKS YOUR ANSWER IS SUBMITTED",100,400)
     });
   }
 }
