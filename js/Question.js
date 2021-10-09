@@ -10,6 +10,7 @@ class Question {
     this.option2 = createElement('h4');
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
+    this.messaeg = createElement('h2');
   }
 
   hide(){
@@ -40,8 +41,7 @@ class Question {
     
     this.button.mousePressed(()=>{
     this.message.html("THANKS YOU ANSWER IS SUBMITTED")
-      textSize(30);
-      text("THANKS YOUR ANSWER IS SUBMITTED",100,400)
+      this.message.position(350,350)
     });
   }
 }
